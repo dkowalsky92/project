@@ -1,0 +1,42 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <title>Todo App</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="nav-bar">
+        <input
+          class="add-activity-input"
+          id="new-task"
+          type="text"
+          placeholder="Enter a new activity..."
+        />
+        <button class="add-activity-btn" id="add">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
+            <path fill="none" d="M0 0h24v24H0z" />
+          </svg>
+        </button>
+      </div>
+      <div class="todo-container">
+        <ul class="todo-list" id="tasks"></ul>
+        <ul class="finished-list" id="finished-tasks"></ul>
+      </div>
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
